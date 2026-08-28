@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Security / Secrets
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets.json
+auth.json
+client_secret.json
+credentials.json
+firebase-adminsdk.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
