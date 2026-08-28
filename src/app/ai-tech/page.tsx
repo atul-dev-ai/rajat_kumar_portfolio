@@ -1,5 +1,11 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI & Tech",
+  description: "Discover the latest insights, trends, and resources in Artificial Intelligence and modern technology.",
+};
 
 export default function AITechPage() {
   return (
