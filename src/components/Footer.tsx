@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Code, Globe, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -60,14 +60,14 @@ export function Footer() {
                 <span className="text-white font-medium text-lg">Atul</span>
                 <span className="text-slate-400 text-sm">Full Stack Developer</span>
                 <div className="flex gap-3 mt-2">
-                  <a href="#" className="text-slate-500 hover:text-white transition-colors">
-                    <Github className="w-4 h-4" />
+                  <a href="https://github.com/atul-dev-ai" target="_blank" className="text-slate-500 hover:text-white transition-colors">
+                    <Code className="w-4 h-4" />
+                  </a>
+                  <a href="https://atulpaul.vercel.app" target="_blank" className="text-slate-500 hover:text-blue-400 transition-colors">
+                    <Globe className="w-4 h-4" />
                   </a>
                   <a href="#" className="text-slate-500 hover:text-blue-400 transition-colors">
-                    <Linkedin className="w-4 h-4" />
-                  </a>
-                  <a href="#" className="text-slate-500 hover:text-blue-400 transition-colors">
-                    <Twitter className="w-4 h-4" />
+                    <Mail className="w-4 h-4" />
                   </a>
                 </div>
               </div>
