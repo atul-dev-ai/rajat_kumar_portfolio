@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "#" },
-  { name: "WPLN", href: "#" },
-  { name: "Career", href: "#" },
-  { name: "AI & Tech", href: "#" },
-  { name: "Singapore Guide", href: "#" },
-  { name: "Resources", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "WPLN", href: "/wpln" },
+  { name: "Career", href: "/career" },
+  { name: "AI & Tech", href: "/ai-tech" },
+  { name: "Singapore Guide", href: "/singapore-guide" },
+  { name: "Resources", href: "/resources" },
 ];
 
 export function Header() {
