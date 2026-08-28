@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SG Career Bangla
 
-## Getting Started
+A premium, high-performance web application designed for **SG Career Bangla**, featuring buttery-smooth scrolling, modern glassmorphism UI, and beautiful micro-interactions.
 
-First, run the development server:
+This project was built to migrate the original WordPress site to a cutting-edge modern React stack.
+
+## ✨ Features
+
+- **Premium UI/UX:** A stunning aesthetic utilizing sleek dark modes, subtle radial gradients, and modern typography.
+- **Smooth Scrolling:** Powered by [Lenis](https://lenis.studiofreight.com/) for a native, frictionless scrolling experience.
+- **Scroll-Driven Animations:** Elements elegantly reveal, slide, and stagger as you navigate down the page, powered by [Framer Motion](https://www.framer.com/motion/).
+- **Accessible Components:** Built on top of [shadcn/ui](https://ui.shadcn.com/) for robust, accessible, and highly customizable UI elements.
+- **Next.js App Router:** Leverages the latest React paradigms for optimal SEO, fast page loads, and static site generation.
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Animations:** Framer Motion
+- **Scrolling:** Lenis
+- **Icons:** Lucide React
+
+## 📸 Screenshots
+
+Here are some glimpses of the newly designed application:
+
+### Home & Hero Section
+![Hero Section](./public/home_page.png)
+
+### Topics Section (with Hover & Scroll Effects)
+![Topics Section](./public/topic_page.png)
+
+### WPLN Learning Centre
+![WPLN Section](./public/wpln.png)
+
+### Professional Footer (with Developer Box)
+![Footer](./public/footer.png)
+
+## 🚀 Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔒 Security
+Sensitive files (like environment variables and secrets) are automatically ignored via `.gitignore` to prevent accidental commits of private data.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+Copyright © 2026 SG Career Bangla. All rights reserved.
