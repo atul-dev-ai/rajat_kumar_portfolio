@@ -1,5 +1,11 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "WPLN",
+  description: "Detailed information and guides on WPLN (Workplace Literacy and Numeracy) for your career in Singapore.",
+};
 
 export default function WPLNPage() {
   return (

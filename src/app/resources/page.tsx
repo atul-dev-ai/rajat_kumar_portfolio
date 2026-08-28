@@ -1,5 +1,11 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Resources",
+  description: "Download helpful templates, guides, and tools to boost your career and life in Singapore.",
+};
 
 export default function ResourcesPage() {
   return (

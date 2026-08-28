@@ -1,5 +1,11 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Career",
+  description: "Explore career opportunities, advice, and comprehensive guides for working professionals in Singapore.",
+};
 
 export default function CareerPage() {
   return (
