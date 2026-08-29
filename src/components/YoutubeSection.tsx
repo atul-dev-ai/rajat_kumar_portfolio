@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle2, Youtube } from "lucide-react";
+import { CheckCircle2, PlayCircle } from "lucide-react";
 
 export function YoutubeSection() {
   const benefits = [
@@ -31,7 +31,7 @@ export function YoutubeSection() {
           >
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="bg-red-500/10 p-2 rounded-full">
-                <Youtube className="w-6 h-6 text-red-500" />
+                <PlayCircle className="w-6 h-6 text-red-500" />
               </div>
               <h2 className="text-sm md:text-base font-extrabold uppercase tracking-[0.2em] text-red-400">
                 SG Career Bangla
