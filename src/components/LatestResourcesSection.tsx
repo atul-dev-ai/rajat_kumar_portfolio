@@ -9,13 +9,13 @@ export function LatestResourcesSection() {
     {
       title: "WPLN Numeracy Test Singapore 2026: Complete Preparation Guide",
       image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800", 
-      link: "#",
+      link: "/preview?url=" + encodeURIComponent("https://sgcareerbangla.com/wpln-numeracy-test-singapore-2026/"),
       tag: "Numeracy Guide",
     },
     {
       title: "WPLN Test Singapore 2026: Complete Guide for Beginners",
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
-      link: "#",
+      link: "/preview?url=" + encodeURIComponent("https://sgcareerbangla.com/wpln-test-singapore-2026/"),
       tag: "Beginner Guide",
     }
   ];
