@@ -50,13 +50,27 @@ export function TopicsSection() {
   ];
 
   return (
-    <section className="relative bg-[#0B1E46] pt-16 pb-24 mt-20">
-      {/* Curve top */}
-      <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180 transform -translate-y-full">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="w-full h-12 md:h-20">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-[#0B1E46]"></path>
-        </svg>
+    <div className="flex flex-col mt-16">
+      {/* Singapore Merlion Banner */}
+      <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1920&q=80" 
+          alt="Singapore Merlion" 
+          className="w-full h-full object-cover object-[center_30%]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0B1E46]/80 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 flex items-center justify-center lg:justify-start lg:pl-32">
+           <h2 className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-2xl tracking-tight">WPLN <span className="text-red-500">LEARNING</span> CENTRE</h2>
+        </div>
       </div>
+
+      <section className="relative bg-[#0B1E46] pt-16 pb-24">
+        {/* Curve top */}
+        <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180 transform -translate-y-full">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="w-full h-12 md:h-20">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-[#0B1E46]"></path>
+          </svg>
+        </div>
 
       <div className="container mx-auto px-4 relative z-10 -mt-24 md:-mt-28">
         <div className="flex justify-center mb-12">
@@ -89,5 +103,6 @@ export function TopicsSection() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
