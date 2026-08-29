@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Button } from "./ui/button";
 
 export function WPLNSection() {
@@ -38,14 +39,9 @@ export function WPLNSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="relative h-[400px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl"
+            className="w-full rounded-2xl overflow-hidden shadow-2xl"
           >
-            {/* Placeholder for the person image. Replace src when available. */}
-            <div className="absolute inset-0 bg-slate-200 animate-pulse"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium">
-              Image Placeholder
-            </div>
-            {/* <Image src="/wpln-man.png" alt="WPLN Instructor" fill className="object-cover" /> */}
+            <Image src="/Wpln_learning.png" alt="WPLN Learning" width={1200} height={800} className="w-full h-auto" />
           </motion.div>
 
         </div>
