@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
-import { BookOpen, Link2, Youtube, ArrowRight } from "lucide-react";
+import { BookOpen, Link2, PlayCircle, ArrowRight } from "lucide-react";
 
 export function FreeResourcesSection() {
   const resources = [
@@ -23,7 +23,7 @@ export function FreeResourcesSection() {
       buttonColor: "bg-teal-600 hover:bg-teal-700 text-white shadow-lg shadow-teal-600/30",
     },
     {
-      icon: <Youtube className="w-10 h-10 text-red-600 group-hover:scale-110 transition-transform duration-300" />,
+      icon: <PlayCircle className="w-10 h-10 text-red-600 group-hover:scale-110 transition-transform duration-300" />,
       iconBg: "bg-red-50",
       title: "Video Learning",
       description: "Watch practical Bangla tutorials and guides from SG Career Bangla.",
