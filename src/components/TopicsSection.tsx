@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Calculator, Headphones, BookOpen, Mic, Pencil, Type } from "lucide-react";
+import { Calculator, Headphones, BookOpen, Mic, Pencil, Type, Clock, ClipboardList, TrendingUp, CheckCircle, Users, Target, GraduationCap } from "lucide-react";
 
 export function TopicsSection() {
   const modules = [
@@ -73,6 +73,28 @@ export function TopicsSection() {
         </div>
 
       <div className="container mx-auto px-4 relative z-10 -mt-24 md:-mt-28">
+        {/* Top Info Bar (Floating over curve) */}
+        <div className="bg-white rounded-xl shadow-xl p-4 mb-8 hidden md:block border-b-4 border-slate-200">
+          <div className="grid grid-cols-4 divide-x divide-slate-200">
+            <div className="flex items-center space-x-3 px-4">
+              <div className="flex-shrink-0"><Clock className="w-8 h-8 text-[#0B1E46]"/></div>
+              <p className="text-[#0B1E46] text-xs font-bold leading-tight uppercase">Understand<br/><span className="text-slate-600 font-semibold capitalize">All WPLN Modules</span></p>
+            </div>
+            <div className="flex items-center space-x-3 px-4">
+              <div className="flex-shrink-0"><BookOpen className="w-8 h-8 text-[#dc2626]"/></div>
+              <p className="text-[#0B1E46] text-xs font-bold leading-tight uppercase">Step-by-Step<br/><span className="text-slate-600 font-semibold capitalize">Preparation Guides</span></p>
+            </div>
+            <div className="flex items-center space-x-3 px-4">
+              <div className="flex-shrink-0"><ClipboardList className="w-8 h-8 text-[#0B1E46]"/></div>
+              <p className="text-[#0B1E46] text-xs font-bold leading-tight uppercase">Practical Tips &<br/><span className="text-slate-600 font-semibold capitalize">Test Strategies</span></p>
+            </div>
+            <div className="flex items-center space-x-3 px-4">
+              <div className="flex-shrink-0"><TrendingUp className="w-8 h-8 text-[#dc2626]"/></div>
+              <p className="text-[#0B1E46] text-xs font-bold leading-tight uppercase">Improve Skills<br/><span className="text-slate-600 font-semibold capitalize">With Confidence</span></p>
+            </div>
+          </div>
+        </div>
+
         <div className="flex justify-center mb-12">
           <div className="bg-[#0B1E46] text-white px-10 py-4 rounded-full shadow-2xl border-4 border-white text-xl md:text-2xl font-bold inline-block z-20 text-center">
             Explore All WPLN Modules
@@ -101,6 +123,28 @@ export function TopicsSection() {
             </motion.div>
           ))}
         </div>
+        {/* Bottom Info Bar */}
+        <div className="mt-10 bg-[#081638] rounded-xl shadow-inner border border-white/5 py-5 px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-0 lg:divide-x lg:divide-white/10">
+            <div className="flex items-center space-x-4 lg:justify-center px-4">
+              <div className="bg-[#dc2626] rounded-full p-2 flex-shrink-0"><CheckCircle className="text-white w-5 h-5"/></div>
+              <p className="text-white text-[13px] font-semibold leading-tight">Trusted Guides<br/><span className="text-slate-400 font-normal">by SG Career Bangla</span></p>
+            </div>
+            <div className="flex items-center space-x-4 lg:justify-center px-4">
+              <div className="bg-[#1d4ed8] rounded-full p-2 flex-shrink-0"><Users className="text-white w-5 h-5"/></div>
+              <p className="text-white text-[13px] font-semibold leading-tight">For All Candidates<br/><span className="text-slate-400 font-normal">Jobs in Singapore</span></p>
+            </div>
+            <div className="flex items-center space-x-4 lg:justify-center px-4">
+              <div className="bg-[#dc2626] rounded-full p-2 flex-shrink-0"><Target className="text-white w-5 h-5"/></div>
+              <p className="text-white text-[13px] font-semibold leading-tight">Structured Preparation<br/><span className="text-slate-400 font-normal">Better Results</span></p>
+            </div>
+            <div className="flex items-center space-x-4 lg:justify-center px-4">
+              <div className="bg-[#1d4ed8] rounded-full p-2 flex-shrink-0"><GraduationCap className="text-white w-5 h-5"/></div>
+              <p className="text-white text-[13px] font-semibold leading-tight">Learn • Practice • Succeed<br/><span className="text-slate-400 font-normal">Your WPLN Journey Starts Here!</span></p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     </div>
