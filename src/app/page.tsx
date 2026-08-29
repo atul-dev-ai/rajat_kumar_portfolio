@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { TopicsSection } from "@/components/TopicsSection";
 import { WPLNSection } from "@/components/WPLNSection";
+import { FreeResourcesSection } from "@/components/FreeResourcesSection";
 import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <TopicsSection />
         <WPLNSection />
+        <FreeResourcesSection />
       </main>
       <Footer />
     </>
