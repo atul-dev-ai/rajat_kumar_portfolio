@@ -106,9 +106,9 @@ export function Hero() {
           <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
         </defs>
         <g className="wave-group">
-          <use href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)" className="wave1"></use>
-          <use href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)" className="wave2"></use>
-          <use href="#wave-path" x="50" y="9" fill="#fff" className="wave3"></use>
+          <use href="#wave-path" x="50" y="3" fill="rgba(255,255,255, 0.05)" className="wave1"></use>
+          <use href="#wave-path" x="50" y="0" fill="rgba(255,255,255, 0.1)" className="wave2"></use>
+          <use href="#wave-path" x="50" y="9" fill="rgba(255,255,255, 0.2)" className="wave3"></use>
         </g>
       </svg>
     </section>

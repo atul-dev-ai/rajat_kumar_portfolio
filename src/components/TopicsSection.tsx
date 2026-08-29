@@ -50,7 +50,7 @@ export function TopicsSection() {
   ];
 
   return (
-    <div className="flex flex-col mt-16">
+    <div className="flex flex-col">
       {/* Singapore Merlion Banner */}
       <div className="relative w-full h-[250px] md:h-[350px] overflow-hidden">
         <img 
